@@ -1,0 +1,265 @@
+body{
+    background-image: url("images/wall2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#TitleName{
+    background-color:rgb(177, 27, 27);
+    padding: 10px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:whitesmoke;
+    opacity: 1;
+    
+}
+#popularHeros{
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#popularVillains{
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#superHeros1{
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+#superHeros2{
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+#superHeros3{
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    float: left;
+    
+
+}
+#superHeros4{
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+#superHeros5{
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+#superHeros6{
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+#superHeros7{
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+#superHeros8{
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+#superVillain1{
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+#superVillain2{
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+#superVillain3{
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+#superVillain4{
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+#superVillain5{
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+#superVillain6{
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+#superVillain7{
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+#superHerosName1{
+    background-color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 120px;
+    display: block;
+    font-size: 13.2px;
+}
+#superHerosName2{
+    background-color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 120px;
+    display: block;
+    font-size: 13.2px;
+
+}
+#superHerosName3{
+    background-color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 120px;
+    display: block;
+    font-size: 13.2px;
+
+}
+#superHerosName4{
+    background-color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 120px;
+    display: block;
+    font-size: 13.2px;
+}
+#superHerosName5{
+    background-color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 120px;
+    display: block;
+    font-size: 13.2px;
+}
+#superHerosName6{
+    background-color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 120px;
+    display: block;
+    font-size: 13.2px;
+}
+#superHerosName7{
+    background-color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 120px;
+    display: block;
+    font-size: 13.2px;
+}
+#superHerosName8{
+    background-color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 120px;
+    display: block;
+    font-size: 13.2px;
+}
+div.gallery{
+    margin: 5px;
+    float: left;
+    width: 120px;
+}
+div.desc {
+    text-align: center;
+}
+div.space{
+    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    margin: 30px;
+  }
+  #superVillainName1{
+    background-color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 120px;
+    display: block;
+    font-size: 13.2px;
+}
+#superVillainName2{
+    background-color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 120px;
+    display: block;
+    font-size: 13.2px;
+}
+#superVillainName3{
+    background-color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 120px;
+    display: block;
+    font-size: 13.2px;
+}
+#superVillainName4{
+    background-color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 120px;
+    display: block;
+    font-size: 13.2px;
+}
+#superVillainName5{
+    background-color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 120px;
+    display: block;
+    font-size: 13.2px;
+}
+#superVillainName6{
+    background-color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 120px;
+    display: block;
+    font-size: 13.2px;
+}
+#superVillainName7{
+    background-color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 120px;
+    display: block;
+    font-size: 13.2px;
+}
