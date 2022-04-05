@@ -1,0 +1,63 @@
+body{
+    background-image:-webkit-linear-gradient(120deg,rgba(230, 89, 220, 0.637),rgba(102, 158, 231, 0.904));
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 50px;
+
+}
+#heading{
+    color: rgb(255, 255, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 20px 20px 50px 10px rgb(201, 196, 135) inset;
+}
+::placeholder { 
+    color: rgb(0, 0, 0);
+    opacity: 1; 
+    text-align: center;
+  }
+#textBox{
+    background-color: pink;
+    text-align: center;
+    height: 2rem;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(88, 87, 87);
+    margin-right: 10px;
+}
+#generatebutton{
+    background-color: rgb(4, 228, 4);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(88, 87, 87);
+    text-align: center;
+    height: 2.5rem;
+
+}
+form{
+    text-align: center;
+}
+p{
+    color: rgba(36, 35, 36, 0.637);
+    margin-bottom: -20px;
+
+}
+.grid-container{
+    margin-left: 50px;
+
+}
+
+#grid{
+    background-color: rgba(255, 255, 255,0.3);
+    height: 200px;
+    width: 1120px;
+    margin-right: 50px;
+    border-radius: 20px;
+    padding: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display:none;
+
+}
