@@ -1,0 +1,75 @@
+*{
+    padding: 10px;
+}
+  
+  body{
+    font-family: "Nunito",sans-serif;
+    background-image: url(weather.jpg);
+  }
+  
+  #heading{
+      text-align: center;
+  }
+
+  #grid1{
+    text-align: center;
+    margin: 100px auto;
+    background-image: linear-gradient(rgb(191, 231, 241) , rgb(78, 179, 209));
+    height: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 20px 20px 50px 15px rgb(255, 249, 249);
+  }
+  
+  #submitButton{
+    padding: 15px 30px;
+    background: #c7c5c5;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 18px;
+    height: 50px;
+
+  }
+  
+  #textBox{
+    width: 300px;
+    height: 30px;
+    padding: 5px 10px;
+    background-image: linear-gradient(to right,rgb(70, 177, 235),white);
+    box-shadow: 2px 2px 20px 15px rgba(43, 40, 40,0.5);
+    border: none;
+    border-radius: 30px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+  }
+  
+  #grid2{
+    width: 600px;
+    background-image: linear-gradient(rgb(191, 231, 241) , rgb(78, 179, 209));
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 20px;
+ 
+  }
+  
+  
+
+  #grid2 h1{
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  #grid2 p{
+    text-align: center;
+    margin:40px 0;
+    font-size:20px;
+  }
+
+img{
+    height: 200px;
+    width: 200px;
+    float: left;
+  }
