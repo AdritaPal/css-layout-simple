@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h2>Voter Age Validator</h2>
+</head>
+<body>
+<form name="myForm">
+  Name of the voter: <input type="text" name="fname"><br/>
+  Age of the voter (18-99): <input type="number" name="age" id="age"><br/>
+
+  <button type="button" onclick="return validateForm()">Submit</button>
+</form>
+<p id="result">{Valid/Invalid}</p>
+
+<script>
+
+function validateForm() {
+    let name = document.forms["myForm"]["fname"].value;
+    let age = document.getElementById('age').value;
+    
+  if (name == "") {
+    document.getElementById("result").innerHTML = 'Invalid';
+  }
+  else if(age < 18 || age > 99){
+    document.getElementById("result").innerHTML = 'Invalid';
+
+    return 'Invalid';
+  }
+  else {
+    document.getElementById("result").innerHTML = 'Valid';
+
+    return 'Valid';
+  }
+}
+
+</script>
+</body>
+</html>
